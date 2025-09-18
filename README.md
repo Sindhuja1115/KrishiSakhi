@@ -180,33 +180,6 @@ When backend is running, visit:
 - **Interactive Docs**: http://localhost:8000/docs
 - **API Schema**: http://localhost:8000/redoc
 
-### Key API Endpoints
-
-```python
-# Authentication
-POST /api/auth/login
-POST /api/auth/register
-POST /api/auth/demo-login
-
-# Farm Management
-GET /api/farms
-POST /api/farms
-GET /api/activities
-POST /api/activities
-
-# AI Features
-POST /api/ai/detect-disease
-POST /api/ai/chat
-
-# Weather & Advisory
-GET /api/weather?location={district}
-
-# Knowledge & Community
-GET /api/knowledge/crops
-GET /api/knowledge/diseases
-GET /api/community/alerts
-```
-
 ## 🛠️ Development
 
 ### Adding New Features
@@ -295,46 +268,11 @@ Currently supports:
 
 Easy to extend to other Indian languages by updating `utils/translations.py`
 
-## 🔧 Troubleshooting
-
-### Common Issues
-
-1. **Backend not starting**
-   ```bash
-   # Check if port 8000 is free
-   lsof -i :8000
-   # Kill existing process if needed
-   kill -9 <PID>
-   ```
-
-2. **Frontend connection errors**
-   - Ensure backend is running on localhost:8000
-   - Check firewall settings
-   - Verify API endpoints in frontend code
-
-3. **Voice features not working**
-   - Voice features are optional
-   - Install additional packages if needed
-   - Check browser microphone permissions
-
-4. **AI models loading slowly**
-   - First-time model downloads take time
-   - Ensure stable internet connection
-   - Models are cached after first use
-
-### Performance Optimization
+## Performance Optimization
 
 - **Database**: Regular cleanup of old records
 - **AI Models**: Use GPU if available (CUDA)
 - **Caching**: Implement Redis for frequently accessed data
 - **Images**: Optimize image sizes for disease detection
-
-## 📞 Support
-
-For questions or issues:
-1. Check the troubleshooting section above
-2. Review API documentation at http://localhost:8000/docs
-3. Examine log files for error details
-
 
 **Built with ❤️ for Kerala Farmers by the Krishi Sakhi Team**
