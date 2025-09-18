@@ -336,21 +336,5 @@ For questions or issues:
 2. Review API documentation at http://localhost:8000/docs
 3. Examine log files for error details
 
-## 🏆 Hackathon Ready
-
-This project is designed for hackathon presentations:
-
-- ✅ Complete working demo
-- ✅ Professional UI/UX
-- ✅ AI-powered features
-- ✅ Bilingual support
-- ✅ Mobile responsive
-- ✅ Real-world use case
-- ✅ Scalable architecture
-- ✅ Easy setup and demo
-
-Perfect for impressing judges with a production-ready prototype that addresses real farmer needs in Kerala! 🚀
-
----
 
 **Built with ❤️ for Kerala Farmers by the Krishi Sakhi Team**
