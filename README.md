@@ -114,7 +114,7 @@ krishi-sakhi/
    ```bash
    # Terminal 2 (new terminal)
    cd frontend
-   streamlit run main.py
+   streamlit run app.py
    ```
    The web app will open at: http://localhost:8501
 
