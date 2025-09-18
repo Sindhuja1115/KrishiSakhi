@@ -275,4 +275,4 @@ Easy to extend to other Indian languages by updating `utils/translations.py`
 - **Caching**: Implement Redis for frequently accessed data
 - **Images**: Optimize image sizes for disease detection
 
-**Built with ❤️ for Kerala Farmers by the Krishi Sakhi Team**
+**Built with ❤️ for Kerala Farmers by the Vision Team**
