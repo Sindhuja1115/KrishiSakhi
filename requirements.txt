@@ -1,8 +1,13 @@
-streamlit==1.38.0
-plotly==5.24.1
-pandas==2.2.2
+fastapi==0.112.2
+uvicorn[standard]==0.30.6
+PyJWT==2.9.0
+pydantic==2.9.2
+pydantic-settings==2.4.0
+python-multipart==0.0.12
 requests==2.32.3
-streamlit-mic-recorder==0.0.8
-SpeechRecognition==3.10.4
-gTTS==2.5.3
+numpy==2.1.1
 Pillow==10.4.0
+# If you actually load AI models that need torch/transformers, uncomment:
+# torch==2.4.1
+# torchvision==0.19.1
+# transformers==4.44.2
