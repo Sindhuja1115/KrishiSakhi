@@ -67,7 +67,7 @@ krishi-sakhi/
 │   └── utils/
 │       └── translations.py     # Bilingual support utilities
 ├── frontend/
-│   ├── main.py                 # Streamlit application with all pages
+│   ├── app.py                 # Streamlit application with all pages
 │   └── voice_assistant.py      # Voice recognition and TTS
 ├── assets/
 │   ├── sample_data.py          # Demo data and mock datasets
